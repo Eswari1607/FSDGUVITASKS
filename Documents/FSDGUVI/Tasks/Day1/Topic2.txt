@@ -1,0 +1,57 @@
+About objects and its internal representation in Javascript:
+
+Understanding Objects in JavaScript:
+
+JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is 
+an association between a name (or key) and a value. A property's value can be a function, in which case the property 
+is known as a method.
+
+data = {
+  name: "sheero",
+  age: 7,
+  email: "sheerotest@gmail.com"
+};
+
+Objects and properties:
+
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is 
+attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment 
+to objects. The properties of an object define the characteristics of the object. You access the properties of an object with 
+a simple dot-notation:
+
+objectName.propertyName
+
+
+Internal Representation of Objects:
+
+Internally, JavaScript engines use various data structures to represent objects efficiently. One common approach is 
+using a hash table or a similar structure to store the object's properties and their corresponding values. This allows
+for fast access and manipulation of properties.
+
+Internal Representation:
+{
+  name: "sheero",
+  age: 7,
+  email: "sheerotest@gmail.com"
+}
+
+1) Memory Allocation:
+
+When you create an object in JavaScript, memory is allocated in the heap. This is where complex data structures like objects 
+are stored. Unlike primitive types (which are stored in the stack), objects can have an arbitrary size and structure, requiring 
+dynamic memory allocation.
+
+2) Key-Value Pairs:
+
+JavaScript represents objects as hash tables (or dictionaries). Each property (key-value pair) of an object is stored in a 
+way that allows for fast retrieval.
+
+   a)Keys are converted to strings. If you use a non-string key (like a number or Symbol), JavaScript automatically converts it to 
+   a string.
+   b)Values can be of any type, including other objects.
+
+Conclusion:
+
+Objects are a cornerstone of JavaScript, enabling developers to structure data and create complex applications. Understanding 
+their internal representation—how they are stored in memory, their prototype chain, property attributes, and garbage collection—can 
+significantly enhance your coding practices.

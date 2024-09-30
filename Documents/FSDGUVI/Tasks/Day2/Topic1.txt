@@ -1,0 +1,52 @@
+Difference between document and window objects:
+
+In the web development, two of the most commonly used objects are the document and window objects. While they are often 
+mentioned together, they serve different purposes and functionalities within the browser environment. 
+
+Window Object:
+
+The window object represents the browser window or tab in which your web application is running. It serves as the global context 
+for JavaScript, meaning all global variables and functions are properties of the window object. Here are some key characteristics 
+and functionalities of the window object:
+
+1. Global Scope:
+
+All global variables and functions are accessible as properties of the window object. For example, if you define a variable like this:
+
+var data = "Hello!";
+
+We can access it through window object:
+
+console.log(window.data);
+
+2. Browser Control:
+
+The window object provides methods to control the browser window, such as opening new tabs, alerting messages, and navigating to 
+different URLs. For instance:
+
+window.alert("This is an alert!");
+window.open("https://www.example.com");
+
+ 3. Properties and Methods:
+
+The window object includes various properties and methods for interacting with the browser environment, such as:
+
+window.location: Contains information about the current URL.
+window.setTimeout(): Executes a function after a specified delay.
+window.innerWidth and window.innerHeight: Provide the dimensions of the viewport.
+
+Document Object:
+
+The document object represents the HTML document that is currently loaded in the browser. It is part of the Document Object Model 
+(DOM) and allows developers to manipulate the structure and content of the webpage. Here are some important aspects of the document 
+object:
+
+1. Accessing and Manipulating HTML Elements
+2. Creating and Removing Elements
+3. Event Handling
+
+Conclusion
+Understanding the differences between the document and window objects is essential for effective web development. While the window 
+object provides control over the browser environment, the document object allows you to interact with and manipulate the content of 
+the web page itself.
+

@@ -1,0 +1,43 @@
+Difference between HTTP1.1 vs HTTP2:
+
+"HTTP - Hypertext Transfer Protocol"
+
+The Hypertext Transfer Protocol (HTTP) is the backbone of data communication on the web. As technology evolves, so do the 
+protocols that support it. HTTP/1.1 has been a stalwart for many years, but the introduction of HTTP/2 brings significant 
+improvements. In this blog, we’ll explore the key differences between HTTP/1.1 and HTTP/2, highlighting how these changes 
+enhance web performance and user experience.
+
+1) Connection Management:
+HTTP/1.1
+In HTTP/1.1, maintaining connections can be cumbersome. The protocol does support persistent connections, but the limitations 
+in multiplexing.
+
+HTTP/2
+HTTP/2 is designed for better connection management. With multiplexing and reduced overhead, it requires fewer connections overall. 
+This leads to less strain on both clients and servers and can improve the performance of applications, especially in environments.
+
+2) Binary Protocol vs. Text-Based Protocol:
+
+HTTP/1.1
+HTTP/1.1 is a text-based protocol, meaning that all the data is sent as readable text. While this is human-readable
+, it can be less efficient for machines to process, resulting in overhead.
+
+HTTP/2
+HTTP/2 uses a binary protocol, which means data is sent in binary format. This not only makes it more efficient for machines 
+to process but also allows for better error handling and communication between client and server.
+
+3) Multiplexing:
+
+HTTP/1.1
+In HTTP/1.1, each request and response is handled sequentially over a single connection. This means that if a browser requests
+ multiple resources (like images, stylesheets, and scripts), each one has to wait for the previous one to finish before it can be sent. 
+ This limitation can lead to increased latency and slow loading times, especially on resource-heavy pages.
+
+HTTP/2
+HTTP/2 introduces multiplexing, allowing multiple requests and responses to be sent simultaneously over a single connection. 
+This means that browsers can request multiple resources at once without waiting, significantly reducing latency and improving page
+ load times.
+
+Conclusion
+The evolution from HTTP/1.1 to HTTP/2 marks a significant advancement in web communication. With features like multiplexing, 
+header compression, stream prioritization, server push, and a binary protocol, HTTP/2 offers a faster, more efficient web experience.
