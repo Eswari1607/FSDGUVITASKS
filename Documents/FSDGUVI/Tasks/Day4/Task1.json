@@ -1,0 +1,63 @@
+//Resume data in JSON format:
+
+{
+    "personal_information": {
+      "name": "Eswari Janardhanan",
+      "email": "eswari.jana@gmail.com",
+      "phone": "+91 1234569874",
+      "address": "1, Perumal Kovil Street, Tambaram",
+      "linkedin": "https://www.linkedin.com/in/eswarijanardhanan",
+      "github": "https://github.com/eswarijanardhanan"
+    },
+    
+    "Objective": "Enthusiastic and motivated recent graduate with a strong foundation in full stack development. Eager to leverage skills in JavaScript, HTML, CSS, and backend technologies to contribute to innovative projects and deliver high-quality software solutions.",
+  
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "SRM University",
+        "location": "Chennai",
+        "year": "2019-2023"
+      }
+    ],
+  
+    "Skills": {
+      "front_end_technologies": ["HTML", "CSS", "JavaScript", "React", "Bootstrap"],
+      "back_end_technologies": ["Node.js", "Python", "Django"],
+      "database_management": ["MongoDB", "MySQL"],
+      "version_control": ["Git", "GitHub"],
+      "soft_skills": ["Problem-solving", "Teamwork", "Communication", "Adaptability"]
+    },
+  
+    "Projects": [
+      {
+        "title": "Portfolio Website",
+        "description": "Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.",
+        "technologies": ["HTML", "CSS", "JavaScript"]
+      }
+    ],
+  
+    "certifications": [
+      {
+        "name": "Full Stack Web Development Bootcamp",
+        "organization": "GUVI Academy",
+        "year": "2024"
+      }
+    ],
+  
+    "languages_known": [
+      {
+        "language": "English",
+        "proficiency": "Advanced"
+      },
+      {
+        "language": "Telugu",
+        "proficiency": "Basic"
+      },
+      {
+        "language": "Tamil",
+        "proficiency": "Native"
+      }
+    ]
+  }
+  

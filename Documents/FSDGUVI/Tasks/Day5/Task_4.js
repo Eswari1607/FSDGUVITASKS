@@ -1,3 +1,5 @@
+// Here the class to calculate the Uber price:
+
 class UberPriceCalculator {
     constructor(baseFare, costPerkm , kmcovered) {
         this.baseFare = baseFare; 
